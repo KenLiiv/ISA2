@@ -1,0 +1,9 @@
+{
+  "name": "hello-world_first-lessons",
+  "version": "0.0.0",
+  "description": "HelloWorld_FirstLessons",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}

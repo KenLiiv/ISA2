@@ -59,6 +59,8 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "datatypes", "datatypes\data
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "coercion", "coercion\coercion.njsproj", "{58CF0A5C-8E06-4D17-BB4C-5623632A237F}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "expressions", "expressions\expressions.njsproj", "{A8ECAB1D-A6E8-4F0E-AB5E-5C5267A6CF5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{58CF0A5C-8E06-4D17-BB4C-5623632A237F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58CF0A5C-8E06-4D17-BB4C-5623632A237F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58CF0A5C-8E06-4D17-BB4C-5623632A237F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8ECAB1D-A6E8-4F0E-AB5E-5C5267A6CF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8ECAB1D-A6E8-4F0E-AB5E-5C5267A6CF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8ECAB1D-A6E8-4F0E-AB5E-5C5267A6CF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8ECAB1D-A6E8-4F0E-AB5E-5C5267A6CF5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +201,7 @@ Global
 		{37DE8F10-FDDE-4941-B4CB-C9928CCF1ED5} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
 		{EA118409-0E2B-4BF9-9E03-CFA8B6558BD2} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
 		{58CF0A5C-8E06-4D17-BB4C-5623632A237F} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
+		{A8ECAB1D-A6E8-4F0E-AB5E-5C5267A6CF5C} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AEB2A234-D08D-4EF6-AE1E-A107E35AF1FB}

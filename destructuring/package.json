@@ -1,0 +1,9 @@
+{
+  "name": "destructuring",
+  "version": "0.0.0",
+  "description": "destructuring",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}

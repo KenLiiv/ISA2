@@ -73,6 +73,10 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "iterations", "iterations\it
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "returning-functions", "returning-functions\returning-functions.njsproj", "{64B7D021-FA55-4564-B9E2-1BB435E4A5A3}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "object", "object\object.njsproj", "{38F21863-46B3-41E4-A014-DF4CF96BAA6B}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "module-pattern", "module-pattern\module-pattern.njsproj", "{6CE48E19-5275-4BC3-B874-6C7826A3FA80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +211,14 @@ Global
 		{64B7D021-FA55-4564-B9E2-1BB435E4A5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64B7D021-FA55-4564-B9E2-1BB435E4A5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64B7D021-FA55-4564-B9E2-1BB435E4A5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F21863-46B3-41E4-A014-DF4CF96BAA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F21863-46B3-41E4-A014-DF4CF96BAA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F21863-46B3-41E4-A014-DF4CF96BAA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F21863-46B3-41E4-A014-DF4CF96BAA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE48E19-5275-4BC3-B874-6C7826A3FA80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE48E19-5275-4BC3-B874-6C7826A3FA80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE48E19-5275-4BC3-B874-6C7826A3FA80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE48E19-5275-4BC3-B874-6C7826A3FA80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +256,8 @@ Global
 		{24B9F580-5782-47F3-A467-3512209DF91F} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
 		{9A59DF1E-709F-4288-94CC-B5D2B65E5A7C} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
 		{64B7D021-FA55-4564-B9E2-1BB435E4A5A3} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
+		{38F21863-46B3-41E4-A014-DF4CF96BAA6B} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
+		{6CE48E19-5275-4BC3-B874-6C7826A3FA80} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AEB2A234-D08D-4EF6-AE1E-A107E35AF1FB}

@@ -1,0 +1,9 @@
+{
+  "name": "regex",
+  "version": "0.0.0",
+  "description": "regex",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}

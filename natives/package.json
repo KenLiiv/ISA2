@@ -1,0 +1,9 @@
+{
+  "name": "natives",
+  "version": "0.0.0",
+  "description": "natives",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}

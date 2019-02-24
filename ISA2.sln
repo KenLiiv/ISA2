@@ -97,6 +97,10 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "JSclasses", "JSclasses\JScl
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "arrow-functions", "arrow-functions\arrow-functions.njsproj", "{C767F2C5-2395-4384-8658-F11031358DBC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week4", "Week4", "{595FA72A-4407-41DE-B08E-6DF02AB14D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webpage", "webpage\webpage.csproj", "{361BC06A-1B69-4685-B453-3AB1B534B262}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +283,10 @@ Global
 		{C767F2C5-2395-4384-8658-F11031358DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C767F2C5-2395-4384-8658-F11031358DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C767F2C5-2395-4384-8658-F11031358DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361BC06A-1B69-4685-B453-3AB1B534B262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361BC06A-1B69-4685-B453-3AB1B534B262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361BC06A-1B69-4685-B453-3AB1B534B262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361BC06A-1B69-4685-B453-3AB1B534B262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -328,6 +336,7 @@ Global
 		{E896A646-D25A-477D-9A04-684568C41011} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
 		{E52B821E-C4C6-4D8B-8F16-2AC2FE735396} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
 		{C767F2C5-2395-4384-8658-F11031358DBC} = {E2D02101-F58D-4A40-BBF2-4AE9046FE8DC}
+		{361BC06A-1B69-4685-B453-3AB1B534B262} = {595FA72A-4407-41DE-B08E-6DF02AB14D94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AEB2A234-D08D-4EF6-AE1E-A107E35AF1FB}

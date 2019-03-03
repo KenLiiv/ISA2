@@ -1,25 +1,21 @@
 ﻿@model Facade.EmployeeListViewModel
 @{
-    Layout = null;
+    ViewBag.Title = "Employees";
 }
 
 <!DOCTYPE html>
 
 <html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>MyView</title>
-</head>
+<h2>Employees</h2>
 <body>
-    Hello @Model.UserName
-    <hr />
     <div>
-        <table>
+        <p><a href="/Employee/AddNew">Add new</a></p>
+        <table class="table">
             <tr>
                 <th>Employee Name</th>
                 <th>Salary</th>
             </tr>
-            @foreach (EmployeeViewModel item in Model.Employees)
+            @foreach (var item in Model.Employees)
             {
                 <tr>
                     <td>@item.EmployeeName</td>

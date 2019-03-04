@@ -11,17 +11,18 @@ namespace Tests
 	public class EmployeeViewModelTests
 	{
 		private EmployeeViewModel o;
+		Employee e = new Employee(null, null);
 
 		[TestInitialize]
 		public void TestInitialize()
 		{
-			o = new EmployeeViewModel(null);
+			o = new EmployeeViewModel(e);
 		}
 
 		[TestMethod]
-		public void SalaryColorIsRedByDefaultTest()
+		public void SalaryColorIsGreenByDefaultTest()
 		{
-			Assert.AreEqual("red", o.SalaryColor);
+			Assert.AreEqual("green", o.SalaryColor);
 		}
 		[TestMethod]
 		public void SalaryColorIsRedIfSetColorArgumentIsNullTest()

@@ -12,7 +12,7 @@
         <a href="/Authentication/Logout">Logout</a>
     </div>
     <div>
-        <p><a href="/Employee/AddNew">Add new</a></p>
+        <p>@await Component.InvokeAsync("NewLink")</p>
         <table class="table">
             <tr>
                 <th>Employee Name</th>

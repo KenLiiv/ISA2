@@ -8,6 +8,7 @@ using Facade;
 using Infra;
 using Microsoft.AspNetCore.Authorization;
 using MVC.ViewModels;
+using MVC.Filters;
 
 namespace MVC.Controllers
 {
@@ -35,10 +36,12 @@ namespace MVC.Controllers
 			return View("Index", model);
 		}
 		[Authorize]
+		[AdminFilter]
 		public ActionResult AddNew()
 		{
 			return View("CreateEmployee", new CreateEmployeeViewModel());
 		}
+		[AdminFilter]
 		public ActionResult SaveEmployee(Employee e, string BtnSubmit)
 		{
 			if (BtnSubmit != "Save Employee") return RedirectToAction("Index");

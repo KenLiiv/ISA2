@@ -7,6 +7,7 @@ using Core;
 using Infra;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 
 namespace MVC.Controllers
 {
@@ -24,6 +25,7 @@ namespace MVC.Controllers
 				if (Employees.IsValidUser(u))
 				{
 					await setIdentity(u);
+					HttpContext.Session.SetString("SessionKeyName", u.UserName);
 					return RedirectToAction("Index", "Employee");
 				}
 				ModelState.AddModelError("CredentialError", "Invalid username or password!!");

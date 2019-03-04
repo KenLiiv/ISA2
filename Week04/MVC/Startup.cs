@@ -30,6 +30,12 @@ namespace MVC
 			services.AddDbContext<SalesDbContext>(options =>
 				options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
 				b => b.MigrationsAssembly("MVC")));
+
+			services.AddAuthentication("AuthScheme").AddCookie("AuthScheme", options =>
+			{
+				options.LoginPath = new PathString("/Authentication/Login");
+			});
+
 			services.AddMvc();
 		}
 
@@ -49,6 +55,7 @@ namespace MVC
 
 			app.UseHttpsRedirection();
 			app.UseStaticFiles();
+			app.UseAuthentication();
 			app.UseCookiePolicy();
 
 			app.UseMvc(routes =>

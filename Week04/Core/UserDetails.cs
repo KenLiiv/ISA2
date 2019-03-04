@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Facade
+namespace Core
 {
-	public class EmployeeListViewModel
+	public class UserDetails
 	{
-		public List<EmployeeViewModel> Employees { get; set; }
 		public string UserName { get; set; }
+		public string Password { get; set; }
 	}
 }

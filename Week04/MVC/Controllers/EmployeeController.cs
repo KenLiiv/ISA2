@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Core;
 using Facade;
 using Infra;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVC.Controllers
 {
@@ -13,9 +14,12 @@ namespace MVC.Controllers
     {
 		private readonly SalesDbContext db;
 		public EmployeeController(SalesDbContext db) { this.db = db; }
+
+		[Authorize]
 		public ActionResult Index()
 		{
 			var model = new EmployeeListViewModel();
+			model.UserName = User.Identity.Name;
 			var employees = Employees.Get(db);
 			var list = new List<EmployeeViewModel>();
 			foreach(var e in employees)
@@ -26,6 +30,7 @@ namespace MVC.Controllers
 			model.Employees = list;
 			return View("Index", model);
 		}
+		[Authorize]
 		public ActionResult AddNew()
 		{
 			return View("CreateEmployee", new CreateEmployeeViewModel());

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVC.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +11,6 @@ namespace Facade
 	{
 		public List<EmployeeViewModel> Employees { get; set; }
 		public string UserName { get; set; }
+		public FooterViewModel FooterData { get; set; }
 	}
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-	class NameValidation : ValidationAttribute
+	public class NameValidation : ValidationAttribute
 	{
 		protected const string requiredField = "Required field!";
 		protected const string lengthIsTooBig = "Length should be less than 20 characters!";

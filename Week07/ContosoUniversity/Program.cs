@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using ContosoUniversity.Data;
 using ContosoUniversity.Models;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
@@ -25,7 +26,7 @@ namespace ContosoUniversity
 				try
 				{
 					var context = services.GetRequiredService<SchoolContext>();
-					context.Database.EnsureCreated();
+					DbInitializer.Initialize(context);
 				}
 				catch (Exception ex)
 				{
